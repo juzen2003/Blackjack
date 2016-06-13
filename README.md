@@ -5,3 +5,4 @@
 -The player is be able to pick the betting amount.
 -It would keep track fo the player's total money.
 -It would alert the player of wins, losses, or busts.
+ 

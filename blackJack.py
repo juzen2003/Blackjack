@@ -205,7 +205,10 @@ if __name__ == '__main__':
 		
 		while gamePlay:
 			if turn % 2 != 0:
-				if playerStand == False:
+				if player1.pointsInHands() == 21:
+					print 'Player has 21. Stand!'
+					playerStand = True
+				elif playerStand == False and player1.pointsInHands() < 21:
 					# Player's turn
 					print "Player's turn:"
 					hitOrStand = askHitOrStand()
